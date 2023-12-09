@@ -1,5 +1,9 @@
 /*-- Navbar --*/
 
+.navbar {
+  margin-bottom: 0;
+}
+
 #main-nav .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
