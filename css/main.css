@@ -1,42 +1,66 @@
+/* ----------- responsive main styling page  ------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.4rem;
+}
+
 .main-content {
   position: relative;
 }
+
 .img-responsive {
   width: 100%;
 }
+
 .info-wrapper {
   position: relative;
 }
+
 .category-main {
-  font: 16px;
+  font: 1.1rem;
   color: #FF0500;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: -2px;
 }
+
 .content-background {
   margin-left: -15px;
   margin-right: -15px;
   position: relative;
 }
+
 .story {
   text-transform: uppercase;
   color: black;
   text-align: center;
 }
-.summary {
+
+.desc {
   text-align: center;
+  padding: 0px 15px;
 }
+
 a {
   color: inherit;
 }
+
 .info-wrapper {
   border-top: 4px solid #FF0500;
   padding: 15px 30px 25px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .info-wrapper {
-    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0, #fff 50%, #fff 100%);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -44,39 +68,40 @@ a {
   }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   .category-main {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 }
+
 /* ----------------------- */
 
 /* Main Horizontal Divider- after main pic */
 
 .main-horizontal-divider {
-  border-top:1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
 }
 
 /* ----------------------- */
 
 /* Vertical Divider */
 .vertical-divider {
-  border-right:1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .vertical-divider {
     height: 600px;
   }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   .vertical-divider {
     height: 600px;
   }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
   .vertical-divider {
     height: 800px;
   }
@@ -89,49 +114,56 @@ a {
 
 .sub-box {
   margin-top: 15px;
-  border-bottom:1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .category-main.blue {
-  color: #00B7FF;
+  color: #00b7ff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-size: 1.375rem;
+  line-height: 24px;
+  letter-spacing: 1px;
 }
 
 #blue-background {
-  border: 1px solid #cdf0ff;
   background-color: #e6ffff;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   .sub-box {
     height: 630px;
   }
+
   #blue-background {
-    height: 615px;
+    height: 400px;
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .sub-box {
     height: 550px;
   }
+
   #blue-background {
-    height: 535px;
+    height: 6em;
   }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   .sub-box {
     height: 670px;
   }
+
   #blue-background {
     height: 555px;
   }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
   .sub-box {
     height: 690px;
   }
+
   #blue-background {
     height: 675px;
   }
